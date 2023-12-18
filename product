@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive  Flower Website Design Tutorials</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="home.css"> 
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">FlowerFusion<span>.</span></a>
+        <nav class="navbar">
+            <a href="home1.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="product.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="owner.html">Owner</a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>   
+            <a href="log.html">Logout</a>
+        </div>
+    </header>
+     <!--Header section ends-->
+
+
+     
+
+
+    <!--Home section ends-->
+
+
+  
+<!--Products section stars-->
+
+<section class="products" id="products">
+    <h1 class="heading">latest <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="https://www.thefloweryard.com/wp-content/uploads/2021/05/pl20emer03s.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Rose</h3>
+                <div class="price">$17.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="https://assets.florista.ph/uploads/product-pics/2174_75_2174.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Tulip</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="https://media.istockphoto.com/id/532388398/photo/pink-dahlias.jpg?s=612x612&w=0&k=20&c=Qfz5pP0FiU2EcoULVDcuU-NeUKUgSMKTelDJ1VOk_VY=" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Dahlia</h3>
+                <div class="price">$14.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="data:image/jpeg;base64,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z59h9zJOV6OzU9qButHY+d2PI9vSWuW6OiksRZNbb1tfa6J359BLSa66c8vNeo8otADyAE9xEOBERAREQEREBERAREQEREBERAREQERED5H+KHGWws5l2B+Hh57AzQrYrgY7azoFG6xFxB/ynY4rltTMB8uq7qwdwKP73nI/2x4JGNlStj4qthuR3CYiMg9w2ISJ9HHS0PzWfLtX22uI64Z+vLnHwmYBgukXVgmyB5nivL6z1l8BviKMNbOrULFgAVq+t6Z1SZRANNAj135mcvl1SwoqzZ+1fpGpvbV83FbluhfPep6iIcCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiB86/tewbw8m/cZpUB8tSs3/4H2n0ScF/auLwsmtgXm0O/+zEF/TVO9k+reozERKhERAREQEREBERAREQEREBERAREQEREBERAiZ3P4eCurEdUHbUefYd5zec/tCyWHYOISR5D/u/yj8a/hdc7pBxHw2XdSviB2IplPbfsROAb+zXGQ+F8N/UlkJ/+p/nM26akS/xr+MMHMnJFB4UxxiPZ8QCldivIsE+9T6Bgfi7LMqt8RAGGpbcAkH0NGfJc9+CMz4SPhgjnxk9x6TVjfhplPidBvexLffwj+cm6a/H27I9awcX5HB2B5B54uuL9ZZz47+EOmJh4yuHdifCd9IIPbTvf3n2ITUSxmIiVCIiAiIgIiICIiAiIgIiICIiAiIgIiIEHOfN9P6yFjSbnPmHt+pkHGmK6Y9KfPTlOpcmdVnu85XqXeIqT+GD/AIqf7p9Vnyf8Mn/FT/dPrE1GKzERKyREQEREBERAREQEREBERAREQEREBERAg53ke0gY0sM9yPaV+LMZdumPSnz3ect1Eczqs6OZzHUF5iNPf4b/AM1P94n1cT5P0AViJ/vE+sCajnkzERKyREQEREBERAREQEREBERAREQEREBERA042EG9xxIWLk27C/Y/1llElm1lsc5menYh4U/cf1lRjfhrHc/Iq+rMP0szuok0vtXMdH/CowmD4jhiNwFFC/Unc/lOniJpm1mIiAiIgIiICIiAiIgf/9k=" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Cherry Blossom</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-17%</span>
+            <div class="image">
+                <img src="https://images.kkeu.de/is/image/BEG/Office_Equipment/Artificial_plants/Peony_pdplarge-mrd--656187_AFS_00_00_00_12623211.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Peony</h3>
+                <div class="price">$14.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-3%</span>
+            <div class="image">
+                <img src="https://flowercompany.ca/cdn/shop/products/potted-azalea-plant-toronto-flower-co-822484.jpg?v=1676627243 alt=">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Azalea</h3>
+                <div class="price">$18.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        
+        </div>
+    </div>
+</section>
+<!--Products section ends-->
+
+
+
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favorites</a>
+            <a href="#">Owners Info</a>
+         </div>
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">looc</a>
+            <a href="#">Lapu-lapu</a>
+            <a href="#">Mandaue</a>
+            <a href="#">IT PARK</a>
+            <a href="#">Opao</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">09616305262</a>
+            <a href="#">fushionflower@gmail.com</a>
+            <a href="#">Opao, Mandaue City</a>
+       
+        </div>
+    </div>
+
+<!--footer section ends-->
+</body>
+</html>
